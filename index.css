@@ -1,0 +1,60 @@
+form {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1); /* Transparent form background */
+    backdrop-filter: blur(10px); /* Add a blur effect for glassmorphism */
+    padding: 40px;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    z-index: 1;
+}
+.spline-viewer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Make sure it's behind other content */
+}
+form label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+form input[type="email"], form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Slight transparency for inputs */
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Styling the submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient button */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+form input[type="submit"]:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f); /* Reverse gradient on hover */
+}
+
+.add{
+    color: linear-gradient(45deg, #ff7e5f, #feb47b);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
