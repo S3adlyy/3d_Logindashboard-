@@ -1,9 +1,5 @@
 # 🌟 3D Admin Dashboard
 
-![Dashboard Preview](path/to/your/screenshot.png) <!-- Replace with a screenshot of your dashboard -->
-
----
-
 ## 📚 Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
